@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissor</h1>
+        <div class="buttons">
+            <button class="start" type="button">Start Game</button>
+            <button class="restart" type="button">Restart Game</button>
+            <button class="quit" type="button">Quit Game</button>
+        </div>
+        <div class="points">
+            <p>Player's Points : <span class="player-points">_</span></p>
+            <p>Computer's Points : <span class="computer-points">_</span></p>
+        </div>
+        <div class="choice">
+            <div class="player-box">
+                <img src="./images/rock.png" alt="rock-image" class="rock">
+                <img src="./images/paper.png" alt="paper-image" class="paper">
+                <img src="./images/scissor.png" alt="scissor-image" class="scissor">
+                <img src="" alt="----" class="player-outcome">
+            </div>
+            <div class="computer-box">
+                <img src="./images/rock.png" alt="rock-image" class="rock">
+                <img src="./images/paper.png" alt="paper-image" class="paper">
+                <img src="./images/scissor.png" alt="scissor-image" class="scissor">
+                <img src="" alt="----" class="computer-outcome">
+            </div>
+        </div>
+        <h2 class="who-win"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
